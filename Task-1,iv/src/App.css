@@ -1,0 +1,56 @@
+
+#App {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 1% 5%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+span p, li {
+    /* color: red; */
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: '💰' ;
+} 
+
+label {
+    padding-left: 1%;
+}
+
+input {
+    height: 40px;
+    width: 30%;
+    border-radius: 12px;
+    outline: none;
+    border: solid 1px gray;
+    background-color: rgba(211, 211, 211, 0.368);
+    font-size: 18px;
+    padding-left: 1%;
+}
+
+button {
+    margin-top: 2%;
+
+    background-color: #0d6efd;
+
+    height: 50px;
+    width: 13%;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    padding-top: .4%;
+    font-size: 18px;
+    /* align-self: center; */
+}
